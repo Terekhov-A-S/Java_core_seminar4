@@ -1,10 +1,12 @@
 package Shop;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
+@ToString
+@Getter
+@Setter
 public class Customer {
     private String surnameFirstNamePatronymic;
     private int age;
