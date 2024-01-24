@@ -56,15 +56,13 @@ public class Main {
             } else if (holiday == Holiday.noHoliday) {
                 System.out.println("Сегодня не праздничный день");
                 break;
-            } else {
-                break;
             }
         }
     }
 
     private static Holiday getCurrentHoliday() {
         // Здесь также предположим, что сегодня 23 февраля
-        return Holiday.noHoliday;
+        return Holiday.defendersDay;
     }
 }
 
